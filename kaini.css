@@ -1,0 +1,176 @@
+body{
+  font-family:"Noto Serif JP","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝","Yu Mincho","游明朝体","YuMincho","HiraMinProN-W3","HGS明朝E","MS P明朝","MS PMincho",serif;
+  margin:0 0 20px 0;
+  padding:0 0 22px;
+  background:rgb(225, 200, 225);
+}
+
+.main{
+  margin-top:20px;
+}
+
+.bio_bun{
+	display:flex;
+	width:1100px;
+	height:280px;
+	margin:auto;
+	background:white;
+	border-radius: 5px;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items:center;
+	padding:0 10px;
+}
+
+.bio_bun h4{
+	font-family: "ヒラギノ丸ゴ Pro W2","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W2","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color:rgb(123, 15, 150);
+	line-height: 36px;
+	font-size:20px;
+	font-weight: normal;
+
+	
+}
+
+.setsumei{
+	width:53%;
+	height:260px;
+	float:right;
+	background:rgb(123, 15, 150);
+	margin-left:10px;
+	padding:0 5px;
+	border-radius:5px;
+	display:block;
+	
+}
+.setsumei p{
+	color:white;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top:5px;
+}
+
+.bio{
+  width:100%;
+  height:300px;
+  margin:5px auto 10px;
+  z-index: 10;
+}
+.kao{
+  width:190px;
+  height:220px;
+  background-size: cover;
+  background-position:center;
+  background-image:url("oumiyo_main.jpg");
+  margin:auto;
+	z-index: 5;
+}
+
+.name{
+  text-align:center;
+  padding:0;
+  margin:0;
+}
+.name h5{
+  font-size:15px;
+  line-height:20px;
+  background-color:rgb(123, 15, 150);
+  color:white;
+  width:80px;
+  text-align:center;
+  margin:10px auto 0;
+  border-radius:6px;
+	padding:2px;
+}
+
+
+.name h2{
+  letter-spacing:8px;
+  line-height:17px;
+  font-size:22px;
+  color:rgb(30,30,30);
+}
+.name p{
+  letter-spacing:3px;
+  line-height:6px;
+  color:rgb(30,30,30);
+  font-size:15px;
+}
+
+
+
+.prof{
+  margin:15px auto 0;
+  display:flex;
+  justify-content:center;
+	border-radius:5px;
+  background:white;
+	background-image:url("main_half.jpg");
+	background-size:cover;
+  width:1100px;
+  padding:10px 10px;
+  position:relative;
+	box-sizing: border-box;
+}
+
+.prof h3{
+  margin:40px 0 0;
+  padding:0;
+  font-weight:bolder;
+  font-size:20px;
+  color:rgb(123, 15, 150);
+  line-height: 28px;
+  text-align:center;
+  border-bottom:1px solid rgb(123, 15, 150);
+}
+
+.hidari{
+	width:550px;
+}
+.imamade{
+  margin:0 auto;
+  position:relative;
+  top:-15px;
+	font-size:17px;
+  line-height:40px;
+  flex: auto;
+  z-index: 9;
+
+}
+
+.omlayout{
+	width:525px;
+	height:auto;
+	background-image: url("oumiyo_layout.jpg");
+	background-size:cover;
+	background-position: center;
+	margin-left:10px;
+	margin-right:0;
+  z-index: 9;
+  display:inline-block;
+}
+
+.layout_mobile{
+	display:none;
+}
+footer{
+	display:block;
+	position:fixed;
+	bottom:0;
+	width:100vw;
+	height:50px;
+	background:rgb(166,55,126);
+	margin-top:20px;
+	z-index:12;
+}
+
+footer h4{
+	display:block;
+	color:white;
+	text-align:center;
+	font-size:18px;
+	margin:0 auto;
+	padding:0;
+	line-height: 50px;
+	letter-spacing: 3px;
+}

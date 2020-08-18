@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+  font-family:"Noto Serif JP","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝","Yu Mincho","游明朝体","YuMincho","HiraMinProN-W3","HGS明朝E","MS P明朝","MS PMincho",serif;
+  margin:0  ;
+  padding:0;
+  background:rgb(225, 200, 225);
+	height:100vh;
+}
+
+.main{
+	display:block;
+  margin:10px 10px 15px;
+	padding:0;
+}
+
+.bio_bun{
+	width:100%;
+	height:auto;
+	margin:auto;
+	background:white;
+	border-radius: 5px;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items:center;
+	padding:5px;
+}
+
+.bio_bun h4{
+	font-family: "ヒラギノ丸ゴ Pro W2","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W2","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+	color:rgb(123, 15, 150);
+	line-height: 32px;
+	font-size:17px;
+	margin:0;
+	font-weight: normal;
+	text-align:center;
+}
+
+.setsumei{
+	width:100%;
+	height:auto;
+	
+	background:rgb(123, 15, 150);
+	margin:5px auto 0;
+	border-radius:5px;
+	display:block;
+	padding:3px;
+	box-sizing: border-box;
+}
+.setsumei p{
+	color:white;
+	font-size: 16px;
+	margin:0;
+}
+
+.prof{
+	width:100%;
+	margin: 10px auto;
+	background-image: url("main_half.jpg");
+	border-radius: 5px;
+	background-size:cover;
+	background-position: center;
+	box-sizing: border-box;
+	padding:0;
+}
+.hidari{
+	padding:0;
+	margin:0;
+}
+
+.prof h3{
+  margin:40px 0 0;
+  padding:0;
+  font-weight:bolder;
+  font-size:20px;
+  color:rgb(123, 15, 150);
+  line-height: 28px;
+  text-align:center;
+  border-bottom:1px solid rgb(123, 15, 150);
+}
+
+.bio{
+  width:100%;
+  height:300px;
+  margin:auto;
+  z-index: 10;
+}
+.kao{
+  width:190px;
+  height:220px;
+  background-size: cover;
+  background-position:center;
+  background-image:url("oumiyo_main.jpg");
+  margin:10px auto 0;
+	display:block;
+	position:relative;
+	top:10px;
+}
+
+.name{
+	display:block;
+  text-align:center;
+  padding:10px 0;
+}
+.name h5{
+  font-size:15px;
+  line-height:20px;
+  background-color:rgb(123, 15, 150);
+  color:white;
+  width:80px;
+  text-align:center;
+  margin:10px auto 0;
+  border-radius:6px;
+	padding:2px;
+}
+
+
+.name h2{
+  letter-spacing:8px;
+  line-height:17px;
+  font-size:22px;
+  color:rgb(30,30,30);
+}
+.name p{
+  letter-spacing:3px;
+  line-height:6px;
+  color:rgb(30,30,30);
+  font-size:15px;
+}
+.imamade{
+	line-height:38px;
+	letter-spacing:3px;
+}
+.omlayout{
+	display:none;
+}
+
+.layout_mobile{
+	width:100%;
+	height:auto;
+	padding:0 5px;
+	margin:0;
+	box-sizing: border-box;
+}
+.layout_mobile img{
+	width:100%;
+	height:auto;
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+footer{
+	display:block;
+	position:fixed;
+	bottom:0;
+	width:100vw;
+	height:40px;
+	background:rgb(166,55,126);
+	padding:0;
+	margin:10px 0 0 ;
+}
+
+footer h4{
+	display:block;
+	color:white;
+	text-align:center;
+	font-size:12px;
+	margin:0 auto;
+	padding:0;
+	line-height: 40px;
+}

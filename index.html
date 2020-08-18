@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>花柳流日本舞踊【桜華会】</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link href="style_mobile.css" media="(max-width: 768px )" rel="stylesheet" type="text/css">
+    <link href="style_ipad.css" media="(min-width: 768px ) and (max-width: 1024px)" rel="stylesheet" type="text/css">
+    <link href="style_pc.css" media="(min-width: 1024px )" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="slider-pro.min.css"> 
+    <script src="oukakai.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <h3>花柳流日本舞踊　</h3>
+        <img src="logo.png" class="logo">
+        <h3>　桜 華 会</h3>
+        <h4>おうかかい</h4>
+      </div>
+
+      
+      
+      <div class="menu">
+        <a href="kaini.html" class="menutitle">桜華会について</a>
+        <a href="#" class="menutitle">発表会記録</a>
+        <a href="https://ameblo.jp/miouraku" class="menutitle">桜華会ブログ</a>
+        <a href="otoi02.html" class="menutitle">お問い合わせ</a>
+      </div>
+      
+      
+      <div class="bottom"></div>
+    </header>
+    <div class="mobile_top">
+      <img src="logo.png" class="logo">
+      <div class="oukakai_sub">
+        <h4>花柳流日本舞踊</h4>
+        <div class="oukakai_name">
+          <h3>桜  華  会</h3>
+          <p>おうかかい</p>
+        </div>
+      </div>
+      <div class="botanchan">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" class="open"><img src="fan.png"></label>
+        <label for="hamburger" class="back"></label>
+        
+        <h5>MENU</h5>
+        <div class="mobile_menu">
+          <label for="hamburger" class="close">×</label>
+          <a href="kaini.html" class="mobiletitle">桜華会について</a>
+          <a href="#" class="mobiletitle">発表会記録</a>
+          <a href="https://ameblo.jp/miouraku" class="mobiletitle">桜華会ブログ</a>
+          <a href="otoi02.html" class="mobiletitle">お問い合わせ</a>
+        </div>
+      </div>
+      <div class="mb_bottom"></div>
+      
+    </div>
+
+    
+  
+    <div class="main">
+      
+      <div class="tategaki">
+        <h3>　このたびは、<br>花柳桜美世日本舞踊教室ホームページに<br>ご訪問いただきありがとうございます。<br> 「日本舞踊」というと堅苦しい？　敷居が高い？<br>というイメージがあるかと思いますが、<br>実際はちがいます。<br>　特に昨今の世の中は先の見えないことが多く、<br>わたしたちもさまざまなストレスをかかえて<br>生活しています。<br>  「日本舞踊」を通して新しい自分に出会えるかも<br>知れません。<br>　現実から離れて夢の世界へご案内いたします。</h3>
+      </div>
+    </div>
+	  
+	
+	<div id="slider-pro" class="slider-pro"> 
+		<div class="sp-slides">
+		<div class="sp-slide"><img class="sp-image" src="nougakudou.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="miosa_01.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="mioran_01.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="mioraku_05.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="miosa_02.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="mioraku_04.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="miosa_03.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="mioraku_01_R01.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="miosa_04.jpg"></div>
+		<div class="sp-slide"><img class="sp-image" src="mioraku_02.jpg"></div>
+		</div>
+	</div> 
+	  
+	<div class="pc_photo">
+		<div class="photo_own pho01"></div>
+		<div class="photo_own pho02"></div>
+		<div class="photo_own pho03"></div>
+		<div class="photo_own pho04"></div>
+		<div class="photo_own pho05"></div>
+		<div class="photo_own pho06"></div>
+		<div class="photo_own pho07"></div>
+		<div class="photo_own pho08"></div>
+		<div class="photo_own pho09"></div>
+	</div>
+	<footer>
+		<h4>【桜華会】〒222-0022 横浜市港北区篠原東 2-19-5</h4>
+	  
+	</footer>
+	  
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="jquery.sliderPro.min.js"></script>
+	  
+	<script type="text/javascript">
+		$( document ).ready(function( $ ) {
+		$( '#slider-pro' ).sliderPro({
+		buttons: true, //スライダーのページャを表示する
+		startSlide: 0, //最初のスライドを指定する
+		arrows: true, //左右の矢印ボタンを表示する
+		width: '100%', //横幅を設定する
+		height: 450, //高さを設定する
+		autoplay: true, //自動再生の設定
+		loop: true, //スライドをループさせる設定
+		visibleSize: '100%', //前後のスライドを表示するかの設定
+		forceSize: "fullWidth" //スライダーの幅をブラウザ幅に設定する
+		});
+		});
+	</script>
+
+  </body>
+</html>
