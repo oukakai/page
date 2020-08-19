@@ -131,6 +131,7 @@ body{
 .imamade{
 	line-height:38px;
 	letter-spacing:3px;
+	margin-top:-10px;
 }
 .omlayout{
 	display:none;
