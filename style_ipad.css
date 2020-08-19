@@ -1,6 +1,6 @@
 body{
   width:100%;
-  height:1200px;
+  height:100%;
   background-color:black;
   font-family:"Noto Serif JP","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝","Yu Mincho","游明朝体","YuMincho","HiraMinProN-W3","HGS明朝E","MS P明朝","MS PMincho",serif;
   padding:0;
@@ -8,126 +8,91 @@ body{
 }
 
 header{
-  width:100%;
-  height:100px;
-  background-color:white;
-  position:fixed;
-	top:0;
-  padding:0;
-  margin:0 auto;
-  box-sizing: border-box;
-  display:block;
-  opacity:0.75;
-  z-index:200;
-  
+  display:none;
 }
 
 .top{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  text-align:center;
-  margin:3px auto 0 0;
-}
-.top h1{
-  font-size:24px;
-  line-height: 24px;
-  letter-spacing:5px;
-  color:rgb(177,0,100);
+  display:none;
 }
 
-.top h4{
-  font-size:15px;
-  line-height: 29px;
-  margin-left:33px;
-  letter-spacing:8px;
-  color:rgb(177,0,100);
-}
-
-.top img{
-  width:60px;
-  height:60px;
-  object-fit: contain;
-  margin-top:5px;
-}
-
-
-
-.menu{
+.mobile_top{
+  display:block;
+  margin: auto ;
   width:100%;
-  height:50px;
-  text-decoration: none;
-  display:inline-block;
-  text-align:center;
-  z-index:55;
-}
-.menutitle{
-  text-decoration: none;
-  display:inline-block;
-  margin:auto;
-  margin-left:50px;
-  color:rgb(50,50,50);
-  text-align:center;
-  letter-spacing: 3px;
-  position:relative;
-  left:-40px;
-  top:6px;
-  font-size:15px;
-  font-weight:bolder;
-  
-}
-.menutitle:hover{
-  color:rgb(177,88,100);
+  height:100px;
+  background:white;
+  z-index:300;
+  position:fixed;
+  top:0px;
+  left:0;
 }
 
-.bottom{
+.mobile_top img{
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:15px;
+  padding:0;
+  width:70px;
+  height:70px;
+  object-fit: contain;
+}
+.mb_bottom{
   height:8px;
   background-color:rgb(166,55,126);
-  margin-top:-15px;
-}
-.tategaki{
-  width:455px;
-  height:400px;
-  background-color:rgb(123, 15, 150);
-  z-index:100;
-  position:absolute;
-  right:75px;
-  top:160px;
-  opacity:0.7;
-  padding-bottom:10px;
-  font-family:"ヒラギノ丸ゴ Pro W2","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W2","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
-  animation:yura2 24s infinite forwards;
-  
-}
-.tategaki h3{
-  font-size:15px;
-  font-weight:normal;
-  color:white;
-  writing-mode: vertical-rl;
-  position:absolute;
-  right:-6px;
-  top:15px;
-  line-height:36px;
-  letter-spacing:3px;
-  
+  margin-top:-6px;
 }
 
+.oukakai_sub{
+  display:inline-block;
+  margin:15px 0;
+}
+
+.oukakai_name{
+  display:inline;
+}
+.mobile_top h1{
+  color:rgb(177,0,100);
+  font-size:14px;
+  position:relative;
+  padding:0;
+  margin:0;
+  line-height:14px;
+  letter-spacing:6px;
+	
+}
+
+.mobile_top h3{
+  position:relative;
+  top:3px;
+  padding:0;
+  margin:0;
+  font-size:26px;
+  color:rgb(177,0,100);
+  letter-spacing: 10px;;
+}
+
+.mobile_top p{
+  letter-spacing: 16px;
+  padding:0;
+  margin:0;
+  color:rgb(177,0,100);
+  font-size:14px;
+}
 
 .main{
-
   display:flex;
   flex-wrap:wrap;
   justify-content: center;
   background:black;
+  position:relative;
+  top:85px;
+  width:100%;
+  height:244px;
   background-image: url("main.jpg");
   animation:yura 48s infinite forwards;
   background-size: cover;
-	background-position: center;
-  width:100%;
-  height:70%;
+  
 }
-
-
 
 @keyframes yura{
   0%{
@@ -146,127 +111,189 @@ header{
 
 }
 
-@keyframes yura2{
-  0%{
-    opacity:0;
-  }
+.menu{
+  display:none;
+}
+
+
+label{
+  position:relative;
+  margin:0 auto; /*ハンバーガーをセンターにしました*/
+  left:-2px;
+  top:-3pxpx;
+  margin-bottom:0;
+}
+
+
+
+.botanchan{
   
-  40%{
-    opacity:0.8;
-  }
-  60%{
-    opacity:0.8;
-  }
-  100%{
-    opacity:0;
-  }
+  display:flex;
+  flex-direction: column;
+  position:absolute;
+  top:12px;
+  right:10px;
+  margin:5px auto;
+  width:45px;
+  height:85px;
+  padding:0;
+}
 
+input[type="checkbox"]{
+  position:absolute;
+  right:-100px;
+  background-color: brown;
+  display:block;
+}
+
+input[type="checkbox"]:checked ~ .mobile_menu{
+  right:-1px;
+}
+
+.botanchan h5{
+  display:inline-block;
+	
+  width:100%;
+  margin:-35px 0 0;
+  color:rgb(177,0,100);
+}
+.open{
+  display:block;
+  width: 45px;
+  height:75px;
+  margin:0 auto 10px;
+}
+.open img{
+  width:45px;
+  height:45px;
+  color:rgb(177,0,100);
+  position:absolute;
+  top:0;
+  right:0;
+  display:block;
+  margin:0 auto 10px;
+}
+input[type="checkbox"]:checked ~ .open img{
+	opacity:0;
+}
+
+
+input[type="checkbox"]:checked ~ .back{
+  position:fixed;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index:450;
+  background:rgba(0,0,0,0.6);
 }
 
 
 
-
-
-.shashin{
-  width:280px;
-  margin-left:22px;
-  height:200px;
-  background-color:rgb(255,211,250) ;
-  box-shadow: 1.5px 1.5px 2px rgb(88,88,88);
+.close {
+	display:block;
+	color:rgb(166,55,126);
+	font-size:45px;
+	line-height: 40px;
+	margin:5px auto 5px;
+	font-weight:normal;
 }
+
+
 
 .mobile_menu{
-	display:none;
+	display:block;
+	position:fixed;
+	top:0px;
+	right:-170px;
+	width:160px;
+	height:270px;
+  background:white;
+  opacity:0.8;
+	z-index:500;
+	border-radius:3px;
+	padding:3px;
+	text-align:center;
+	border:1px solid rgb(166,55,126);
+  border-top:none;
+  transition:all 0.3s;
 }
-.botanchan{
-  	display:none;
+.mobiletitle{
+	display:inline-block;
+	line-height: 53px;
+	text-decoration: none;
+	font-size:18px;
+	font-family:"Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+	color:rgb(166,55,126);
+	
+}
 
+.bottom{
+  display:none;
+}
+.tategaki{
+  width:100%;
+  height:330px;
+  background-color:rgb(123, 15, 150);
+  z-index:100;
+  position:absolute;
+  top:244px;
+  font-family:"ヒラギノ丸ゴ Pro W2","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W2","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+  animation:yura2 24s infinite forwards;
+  display:flex;
+  justify-content:center;
+  
+}
+.tategaki h3{
+ 
+  font-size:12px;
+  font-weight:normal;
+  color:white;
+  writing-mode: vertical-rl;
+  position:absolute;
+  margin:5px auto;
+  line-height:25px;
+  letter-spacing:2px;
+  align-items:center;
+  
 }
 
-.mobile_top{
-  	display:none;
-}
 
 .slider-pro{
-	display:none;
+	display:block;
 	position:absolute;
-	top:1550px;
-	width:700px;
+	top:658px;
+	width:100vw;
 	height:auto;
+	
 }
 
 .sp-slides{
 	display:block;
-	width:700px;
+	width:100vw;
 	background-size: cover;
 }
 
 .pc_photo{
-	width:100vw;
-	height:800px;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin:20px 0 20px;
-	padding:0;
-	
+	display:none;
 }
 
-.photo_own{
-	width:33.3%;
-	height:50%;
-	background-size: cover;
-	background-position: center;
-	margin:0;
-	border:0.5px solid black;
-	box-sizing: border-box;
-}
-
-.pho01{
-	background-image: url("nougakudou.jpg");
-}
-
-.pho02{
-	background-image: url("mioran_01.jpg");
-}
-.pho03{
-	background-image: url("miosa_01.jpg");
-}
-.pho04{
-	background-image: url("mioraku_02.jpg");
-}
-.pho05{
-	background-image: url("miosa_02.jpg");
-}
-.pho06{
-	background-image: url("mioraku_01_R01.jpg");
-}
-.pho07{
-	background-image: url("miosa_03.jpg");
-}
-.pho08{
-	background-image: url("mioraku_05.jpg");
-}
-.pho09{
-	background-image: url("miosa_04.jpg");
-}
 footer{
 	display:block;
-	position:fixed;
-	bottom:0;
+	position:absolute;
+	top:1150px;
 	width:100vw;
-	height:45px;
+	height:40px;
 	background:rgb(166,55,126);
 	margin-top:10px;
+	padding:0;
 }
 
 footer h4{
 	display:block;
 	color:white;
 	text-align:center;
-	font-size:16px;
+	font-size:12px;
 	margin:0 auto;
 	padding:0;
-	line-height: 45px;
-	letter-spacing: 3px;
+	line-height: 40px;
 }
