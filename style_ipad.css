@@ -86,7 +86,7 @@ header{
 }
 .tategaki{
   width:455px;
-  height:445px;
+  height:400px;
   background-color:rgb(123, 15, 150);
   z-index:100;
   position:absolute;
@@ -99,7 +99,7 @@ header{
   
 }
 .tategaki h3{
-  font-size:16px;
+  font-size:15px;
   font-weight:normal;
   color:white;
   writing-mode: vertical-rl;
