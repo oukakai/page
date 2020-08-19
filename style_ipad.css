@@ -111,24 +111,7 @@ header{
   
 }
 
-.ostitle{
-  margin:auto;
-  width:700px;
-  height:40px;
-  background:linear-gradient(90deg,rgb(177,0,100),rgb(153, 19, 187));
-  border-radius:30px;
 
-}
-
-.ostitle h2{
-  text-align:center;
-  position:relative;
-  color:white;
-  font-size:20px;
-  letter-spacing: 20px;
-  margin-left:10px;
-  line-height: 38px;
-}
 .main{
   display:flex;
   flex-wrap:wrap;
@@ -139,7 +122,7 @@ header{
   background-size: cover;
 	background-position: center;
   width:100%;
-  height:40%;
+  height:30%;
 }
 
 
@@ -181,24 +164,6 @@ header{
 
 
 
-.oshirase{
-  width:100%;
-  display:block;
-  position:relative;
-  top:20px;
-
-}
-
-.layout{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  width:100%;
-  height:200px;
-  box-sizing: border-box;
-  margin-top:25px;
-
-}
 
 .shashin{
   width:280px;
@@ -212,12 +177,12 @@ header{
 	display:none;
 }
 .botanchan{
-  display:none;
+  	display:none;
 
 }
 
 .mobile_top{
-  display:none;
+  	display:none;
 }
 
 .slider-pro{
