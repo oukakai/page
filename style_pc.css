@@ -268,20 +268,32 @@ header{
 	background-image: url("mioraku_02.jpg");
 }
 .pho05{
-	background-image: url("miosa_02.jpg");
+	background-image: url("miomari_01.jpg");
 }
 .pho06{
-	background-image: url("mioraku_01_R01.jpg");
+	background-image: url("miosa_02.jpg");
 }
 .pho07{
-	background-image: url("miosa_03.jpg");
+	background-image: url("mioraku_01_R01.jpg");
 }
 .pho08{
+	background-image: url("mioran_02.jpg");
+}
+
+.pho09{
+	background-image: url("miosa_03.jpg");
+}
+.pho10{
 	background-image: url("mioraku_05.jpg");
 }
-.pho09{
+.pho11{
+	background-image: url("miomari_02.jpg");
+}
+.pho12{
 	background-image: url("miosa_04.jpg");
 }
+
+
 footer{
 	display:block;
 	position:fixed;
