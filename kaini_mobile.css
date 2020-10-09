@@ -154,10 +154,10 @@ body{
 }
 
 .map{
-	width:100%;
+	width:95%;
 	height:auto;
 	padding:0;
-	margin:20px 5px;
+	margin:20px auto;
 }
 
 footer{
