@@ -160,6 +160,17 @@ body{
 	padding:0;
 	margin:20px auto;
 }
+.map h3{
+	font-size:20px;
+	background-color:rgb(123, 15, 150);
+	color:white;
+	line-height:26px;
+	text-align:center;
+}
+.map img{
+	width:100%;
+	height:auto;
+}
 
 footer{
 	display:block;
