@@ -158,19 +158,18 @@ body{
 	width:100%;
 	height:auto;
 	padding:0;
-	margin:20px auto;
+	margin:20px 0 40px 0;
 }
 .maptitle{
 	font-size:20px;
 	color:rgb(123, 15, 150);
 	line-height:26px;
 	text-align:center;
-	padding:0 20px;
 }
 .map img{
 	width:100%;
 	height:auto;
-	margin:0 auto 30px;
+	margin:0 auto;
 }
 
 footer{
