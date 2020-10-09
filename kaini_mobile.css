@@ -162,8 +162,7 @@ body{
 }
 .maptitle{
 	font-size:20px;
-	background-color:rgb(123, 15, 150);
-	color:white;
+	color:rgb(123, 15, 150);
 	line-height:26px;
 	text-align:center;
 	padding:0 20px;
