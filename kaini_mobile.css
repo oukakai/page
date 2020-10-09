@@ -152,6 +152,10 @@ body{
 	box-sizing: border-box;
 }
 
+.map{
+	width:100%;	
+}
+
 footer{
 	display:block;
 	position:fixed;
